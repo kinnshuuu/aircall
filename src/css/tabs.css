@@ -1,0 +1,12 @@
+.date-with-dots-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.dot {
+    border-top: 2px dotted;
+    width: 160px;
+    border-bottom: none;
+}
