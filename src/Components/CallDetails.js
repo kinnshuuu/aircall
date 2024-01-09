@@ -103,8 +103,8 @@ const CallDetails = () => {
 
             <div className='flex justify-between'>
                 <div className='flex rounded-md p-2 gap-5 border-[1px] border-solid border-gray-400 w-[48%]'>
-                    <p className='pt-1 text-xl'><IoMdArchive /></p>
-                    <p className='text-md font-semibold font-mono'>{calldata.is_archived ? <p>Non Archived</p> : <p> Archived</p>}</p>
+                    <p className='text-lg font-semibold text-gray-400'>Archived: </p>
+                    <p className='text-md font-semibold font-mono'>{calldata.is_archived ? <p>Yes</p> : <p>No</p>}</p>
 
                 </div>
                 <div className='flex rounded-md p-2 gap-5 border-[1px] border-solid border-gray-400 w-[48%]'>
