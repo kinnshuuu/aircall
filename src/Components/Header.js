@@ -29,7 +29,7 @@ const Header = () => {
       <Link to={"/archives"}><div className='text-md font-semibold mt-2 hover:border-b-[3px] border-green-600 cursor-pointer'>
         Archive
       </div></Link>
-      <div className='text-xl font-semibold mt-2 hover:border-b-[3px] border-orange-600 cursor-pointer'>
+      <div className='text-xl font-semibold mt-2 hover:border-b-[3px] border-green-600 cursor-pointer'>
         <CiSettings />
 
 
